@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-...." crossorigin="anonymous" />
+    <title>Product Listing</title>
+</head>
+<body>
+    <div class="container">
+        <h1 class="head">PLP</h1>
+          <div class="app-container">
+            <div class="search-bar">
+                <input type="text" id="searchInput" placeholder="Search products...">
+            </div>
+            <div class="layout-switch">
+                <button onclick="switchLayout('list')"><i class="fas fa-list" ></i></button>
+                <button onclick="switchLayout('grid')"><i class="fas fa-th-large"></i></button>
+            </div>
+          </div>
+        <div class="product-list" id="productList"></div>
+    </div>
+    <script src="script.js" defer></script>
+</body>
+</html>
